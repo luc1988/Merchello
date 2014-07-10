@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merchello.Core", "Merchello.Core\Merchello.Core.csproj", "{2A83A229-C24B-4D8D-B806-7C9999EB9461}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{5269BF00-E042-4225-99CD-84867843409C}"
@@ -38,6 +40,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merchello.Web.UI", "Merchello.Web.UI\Merchello.Web.UI.csproj", "{E3A9764B-E9CE-496B-88B1-38103909F4A6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merchello.Examine", "Merchello.Examine\Merchello.Examine.csproj", "{28A665A9-2AAD-4230-AB8C-0F0B0F1B2115}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EIDOS_Umbraco7.1.4_2", "EIDOS_Umbraco7.1.4_2\EIDOS_Umbraco7.1.4_2.csproj", "{0951F9E4-2ECB-4A58-B7A1-9E3C3FB1678A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -137,6 +141,18 @@ Global
 		{28A665A9-2AAD-4230-AB8C-0F0B0F1B2115}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{28A665A9-2AAD-4230-AB8C-0F0B0F1B2115}.Release|x64.ActiveCfg = Release|Any CPU
 		{28A665A9-2AAD-4230-AB8C-0F0B0F1B2115}.Release|x86.ActiveCfg = Release|Any CPU
+		{0951F9E4-2ECB-4A58-B7A1-9E3C3FB1678A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0951F9E4-2ECB-4A58-B7A1-9E3C3FB1678A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0951F9E4-2ECB-4A58-B7A1-9E3C3FB1678A}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{0951F9E4-2ECB-4A58-B7A1-9E3C3FB1678A}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{0951F9E4-2ECB-4A58-B7A1-9E3C3FB1678A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0951F9E4-2ECB-4A58-B7A1-9E3C3FB1678A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0951F9E4-2ECB-4A58-B7A1-9E3C3FB1678A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0951F9E4-2ECB-4A58-B7A1-9E3C3FB1678A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0951F9E4-2ECB-4A58-B7A1-9E3C3FB1678A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{0951F9E4-2ECB-4A58-B7A1-9E3C3FB1678A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{0951F9E4-2ECB-4A58-B7A1-9E3C3FB1678A}.Release|x64.ActiveCfg = Release|Any CPU
+		{0951F9E4-2ECB-4A58-B7A1-9E3C3FB1678A}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

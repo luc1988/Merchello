@@ -44,7 +44,7 @@ namespace Merchello.Web
                 .Search(criteria).Select(result => result.ToProductDisplay()).FirstOrDefault();
 
             if (product != null) return product;
-            var merchelloContext = GetMerchelloContext();
+            var merchelloContext = GetMerchelloContext(); 
 
             var retrieved = merchelloContext.Services.ProductService.GetByKey(new Guid(key));
 
