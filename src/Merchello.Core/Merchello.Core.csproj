@@ -753,6 +753,7 @@
     <Compile Include="Observation\TriggerResolver.cs" />
     <Compile Include="Observation\ITriggerResolver.cs" />
     <Compile Include="Observation\TriggerBase.cs" />
+    <Compile Include="test.cs" />
     <Compile Include="TypeFieldMapperEnumerations.cs" />
     <Compile Include="Models\TypeFields\ProductTypeField.cs" />
     <Compile Include="Models\Rdbms\TypeFieldDto.cs" />
